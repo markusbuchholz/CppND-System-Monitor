@@ -2,13 +2,17 @@
 #define PROCESS_H
 
 #include <string>
+#include <vector>
+
+
 /*
 Basic class for Process representation
 It contains relevant attributes as shown below
 */
 class Process {
  public:
-  int Pid();                               // TODO: See src/process.cpp
+  //std::vector<int> Pid();                               // TODO: See src/process.cpp
+  int Pid();
   std::string User();                      // TODO: See src/process.cpp
   std::string Command();                   // TODO: See src/process.cpp
   float CpuUtilization();                  // TODO: See src/process.cpp
